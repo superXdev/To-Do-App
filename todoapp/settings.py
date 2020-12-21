@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -77,10 +78,10 @@ WSGI_APPLICATION = 'todoapp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'todo',
-        'USER': 'postgres',
-        'PASSWORD': 'fikri123',
-        'HOST': 'localhost',
+        'NAME': 'deumtggto2mq0q',
+        'USER': 'dvchmvjiyhmttu',
+        'PASSWORD': '321fd92b55064c9331fe0aec9ea73952aa843ee59f25eefc9d91f1b8e796da80',
+        'HOST': 'ec2-54-162-207-150.compute-1.amazonaws.com',
         'PORT': '5432'
     }
 }
